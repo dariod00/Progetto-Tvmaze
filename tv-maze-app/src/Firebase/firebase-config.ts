@@ -10,14 +10,14 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAIxt6WUs0PvTY3KmcB8UqaYLg1706oxOU",
-  authDomain: "tvmaze-app-b31da.firebaseapp.com",
-  projectId: "tvmaze-app-b31da",
-  storageBucket: "tvmaze-app-b31da.appspot.com",
-  messagingSenderId: "568599896560",
-  appId: "1:568599896560:web:3daf7dff9431cee189bd35",
+  apiKey: "AIzaSyDYBiEoeSJDZqtCcw4wCWbdT1Wo9Ypppt8",
+  authDomain: "tv-maze-app-979b6.firebaseapp.com",
   databaseURL:
-    "https://tvmaze-app-b31da-default-rtdb.europe-west1.firebasedatabase.app/",
+    "https://tv-maze-app-979b6-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "tv-maze-app-979b6",
+  storageBucket: "tv-maze-app-979b6.appspot.com",
+  messagingSenderId: "605214345543",
+  appId: "1:605214345543:web:e2aa9fc68b1e0d1287a462",
 };
 
 // Initialize Firebase
