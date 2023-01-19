@@ -16,7 +16,8 @@ const firebaseConfig = {
   storageBucket: "tvmaze-app-b31da.appspot.com",
   messagingSenderId: "568599896560",
   appId: "1:568599896560:web:3daf7dff9431cee189bd35",
-  databaseURL: 'https://tvmaze-app-b31da-default-rtdb.europe-west1.firebasedatabase.app/'
+  databaseURL:
+    "https://tvmaze-app-b31da-default-rtdb.europe-west1.firebasedatabase.app/",
 };
 
 // Initialize Firebase
