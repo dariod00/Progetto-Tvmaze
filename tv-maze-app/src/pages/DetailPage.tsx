@@ -29,12 +29,13 @@ const DetailPage = () => {
   return (
     <>
       {!!showDetail ? (
-        <div style={{ display: 'flex', justifyContent: 'center', height: '100%' }}>
-
+        <div
+          style={{ display: "flex", justifyContent: "center", height: "100%" }}
+        >
           <Card
             sx={{
-              maxWidth: '400px',
-              height: '100%',
+              maxWidth: "400px",
+              height: "100%",
               justifyContent: "center",
               alignItem: "center",
               margin: "2em",
@@ -63,12 +64,17 @@ const DetailPage = () => {
           </Card>
         </div>
       ) : (
-        "Loading.."
+        "Loading..."
       )}
-      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '50px' }}>
-        <Button variant="contained" href="/"
-        >
-          Go to search
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginBottom: "50px",
+        }}
+      >
+        <Button variant="contained" href="/">
+          Back to Search
         </Button>
       </div>
     </>

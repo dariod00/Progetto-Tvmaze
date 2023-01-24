@@ -11,7 +11,7 @@ $desktop: 1024px;
 .card {
   width: 300px;
   margin: 10px;
-  background-color: white;
+  background-color: rgb(150, 150, 150);
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
   height: fit-content;
 
@@ -46,7 +46,7 @@ $desktop: 1024px;
 
 ul li a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .custom-checkbox {
@@ -58,7 +58,7 @@ ul li a {
 // DESKTOP
 button a {
   text-decoration: none;
-  color: white;
+  color: yellow;
 }
 
 .login-page {

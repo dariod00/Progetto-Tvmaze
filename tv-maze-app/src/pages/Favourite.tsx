@@ -3,8 +3,7 @@ import { useEffect } from "react";
 import useFirebaseFavourite from "../Context/useFirebaseFavourite";
 import { Link } from "react-router-dom";
 import Favorite from "@mui/icons-material/Favorite";
-import { red } from "@mui/material/colors";
-
+import { yellow } from "@mui/material/colors";
 
 const Favourite = () => {
   const [favourites, addToFavourite, removeFromFavourite] =
@@ -53,8 +52,8 @@ const Favourite = () => {
                   checkedIcon={<Favorite />}
                   sx={{
                     "& .MuiSvgIcon-root": { fontSize: 40 },
-                    color: red[600],
-                    "&.Mui-checked": { color: red[600] },
+                    color: yellow[600],
+                    "&.Mui-checked": { color: yellow[600] },
                   }}
                   style={{
                     backgroundColor: "transparent",
@@ -73,25 +72,28 @@ const Favourite = () => {
                   checked={!!favourites.find((d) => el.id === d.id)}
                 />
               </div>
-              <figure className="card__thumb" >
+              <figure className="card__thumb">
                 <img src={el.image} alt="" className="card__image" />
                 <div
                   style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    width: '300px'
-
-                  }}>
-                  <Link to={"/search/" + el.id.toString()}
-                    style={{ textDecoration: 'none' }}>
+                    display: "flex",
+                    justifyContent: "center",
+                    width: "300px",
+                  }}
+                >
+                  <Link
+                    to={"/search/" + el.id.toString()}
+                    style={{ textDecoration: "none" }}
+                  >
                     <Button
                       variant="contained"
                       style={{
-                        borderRadius: 35,
-                        backgroundColor: "#FF5733",
+                        borderRadius: 20,
+                        backgroundColor: "grey",
                         padding: "9px 18px",
                         fontSize: "15px",
-                        top: '-90px',
+                        top: "-90px",
+                        color: "yellow",
                       }}
                     >
                       Details
@@ -103,7 +105,6 @@ const Favourite = () => {
           ))}
         </Grid>
       </Grid>
-
     </>
   );
 };
